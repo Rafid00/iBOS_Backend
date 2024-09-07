@@ -10,7 +10,7 @@ const JWT_SECRET = "rafid_ahmmad_jwt"; // Replace with your own secret
 
 // Connect to MongoDB
 mongoose
-   .connect("mongodb://localhost:27017/ecommerce", {
+   .connect("mongodb+srv://rafid:rafidispro@cluster0.adpgu.mongodb.net/ecommerce", {
       useNewUrlParser: true,
       useUnifiedTopology: true,
    })
@@ -93,7 +93,7 @@ app.post("/api/auth/login", async (req, res) => {
          return res.status(400).json({ msg: "Invalid credentials" });
       }
 
-      console.log("testing", password, user.password);
+      // console.log("testing", password, user.password);
       // Validate password
       const isMatch = await bcrypt.compare(password, user.password);
       if (!isMatch) {
