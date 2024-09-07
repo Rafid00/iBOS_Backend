@@ -1,5 +1,7 @@
 # iBOS_Assessment ~ E-commerce WebApp
 
+## Hosted : https://i-bos-frontend.vercel.app/
+
 ## Note: 
 1. To log out, you have to press the user button on the top right corner.
 2. The application was not asked to be mobile responsive, but I did it anyway.
