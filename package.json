@@ -2,7 +2,7 @@
    "name": "ibos_backend",
    "version": "1.0.0",
    "description": "",
-   "main": "server.js",
+   "main": "index.js",
    "dependencies": {
       "bcryptjs": "^2.4.3",
       "body-parser": "^1.20.2",
@@ -14,7 +14,7 @@
    "devDependencies": {},
    "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node server.js"
+      "start": "node index.js"
    },
    "keywords": [],
    "author": "",
